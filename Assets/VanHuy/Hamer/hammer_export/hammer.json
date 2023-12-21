@@ -1,0 +1,147 @@
+{
+"skeleton": {
+	"hash": "TqjjpGQiuec",
+	"spine": "4.0.55",
+	"x": -118.46,
+	"y": 11.88,
+	"width": 274,
+	"height": 334,
+	"images": "./images/",
+	"audio": "D:/Animation/Smash_fox/Hammer"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hammer1", "parent": "root", "length": 237.18, "rotation": 90.66, "x": 1.63, "y": 57.8 }
+],
+"slots": [
+	{ "name": "hammer1", "bone": "hammer1", "attachment": "hammer1" }
+],
+"skins": [
+	{
+		"name": "hammer1",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 274, "height": 334 }
+			}
+		}
+	},
+	{
+		"name": "hammer2",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer2", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 293, "height": 339 }
+			}
+		}
+	},
+	{
+		"name": "hammer3",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer3", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 259, "height": 313 }
+			}
+		}
+	},
+	{
+		"name": "hammer4",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer4", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 275, "height": 348 }
+			}
+		}
+	},
+	{
+		"name": "hammer5",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer5", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 259, "height": 338 }
+			}
+		}
+	},
+	{
+		"name": "hammer6",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer6", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 272, "height": 355 }
+			}
+		}
+	},
+	{
+		"name": "hammer7",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer7", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 277, "height": 335 }
+			}
+		}
+	},
+	{
+		"name": "hammer8",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "hammer8", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 295, "height": 337 }
+			}
+		}
+	},
+	{
+		"name": "hammer_rainbow",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "rainbow hammer", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 274, "height": 334 }
+			}
+		}
+	},
+	{
+		"name": "hammer_thunder",
+		"attachments": {
+			"hammer1": {
+				"hammer1": { "name": "thunderhammer", "x": 120.87, "y": -18.3, "rotation": -90.66, "width": 274, "height": 334 }
+			}
+		}
+	}
+],
+"animations": {
+	"smash": {
+		"bones": {
+			"hammer1": {
+				"rotate": [
+					{
+						"value": -70.58,
+						"curve": [ 0.026, -127.79, 0.097, -75.55 ]
+					},
+					{
+						"time": 0.1333,
+						"value": 89.87,
+						"curve": [ 0.141, 89.87, 0.153, 88.44 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 88.44,
+						"curve": [ 0.178, 88.44, 0.19, 89.87 ]
+					},
+					{ "time": 0.2, "value": 89.87 }
+				],
+				"translate": [
+					{
+						"x": 402.96,
+						"y": 181.04,
+						"curve": [ 0.016, 402.96, 0.05, 300.62, 0.018, 181.04, 0.05, 413.44 ]
+					},
+					{
+						"time": 0.0667,
+						"x": 255.22,
+						"y": 414.03,
+						"curve": [ 0.076, 229.46, 0.104, 180.78, 0.087, 414.74, 0.101, 383.6 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 183.16,
+						"y": 35.22,
+						"curve": [ 0.144, 184.05, 0.156, 183.16, 0.134, 33.17, 0.156, 39.33 ]
+					},
+					{ "time": 0.1667, "x": 183.16, "y": 39.33 },
+					{ "time": 0.2, "x": 183.16, "y": 35.22 }
+				]
+			}
+		}
+	}
+}
+}
